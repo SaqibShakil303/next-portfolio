@@ -90,7 +90,7 @@ export default function ScrollyCanvas({ containerRef }: { containerRef: React.Re
         if (isLoaded) {
             renderFrame(0);
         }
-    }, [isLoaded, width, height]);
+    }, [isLoaded, width, height, renderFrame]);
 
     return (
         <div className="sticky top-0 h-screen w-full overflow-hidden bg-[#121212]">
