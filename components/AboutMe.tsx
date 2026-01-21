@@ -21,7 +21,7 @@ export default function AboutMe() {
                         </p>
                         <div className="p-8 md:p-10 rounded-[2.5rem] bg-white/[0.03] backdrop-blur-2xl border border-white/10 shadow-[0_8px_32px_0_rgba(0,0,0,0.37)] relative overflow-hidden group">
                             <span className="relative z-10 block">
-                                Not just another &quot;AI guy.&quot;
+                                Not just another &#34;AI guy.&#34;
                                 <br className="hidden md:block" />
                                 I build AI systems that <span className="text-white border-b-2 border-indigo-500/50">deliver real-world impact</span>.
                             </span>
