@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, useCallback } from "react";
 import { useScroll, useTransform, useMotionValueEvent } from "framer-motion";
 
 export default function ScrollyCanvas({ containerRef }: { containerRef: React.RefObject<HTMLDivElement> }) {
@@ -46,7 +46,7 @@ export default function ScrollyCanvas({ containerRef }: { containerRef: React.Re
     }, []);
 
     // Canvas rendering
-    const renderFrame = (index: number) => {
+    const renderFrame = useCallback((index: number) => {
         const canvas = canvasRef.current;
         if (!canvas || images.length === 0) return;
         const ctx = canvas.getContext("2d");
@@ -65,7 +65,7 @@ export default function ScrollyCanvas({ containerRef }: { containerRef: React.Re
         const y = (canvas.height / 2) - (img.height / 2) * scale;
 
         ctx.drawImage(img, x, y, img.width * scale, img.height * scale);
-    };
+    }, [images, width, height]);
 
     // Scroll logic
     const { scrollYProgress } = useScroll({

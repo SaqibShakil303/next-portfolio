@@ -49,7 +49,7 @@ export default function Overlay({ containerRef }: OverlayProps) {
                 <div className="mt-10 flex justify-center">
                     <div className="px-6 py-3 rounded-2xl bg-black/20 backdrop-blur-md border border-white/10 shadow-2xl">
                         <p className="text-sm md:text-base font-medium tracking-wide text-fuchsia-400">
-                            Not just another &#34;AI guy.&#34;<br />
+                            {"Not just another \"AI guy.\""}<br />
                             <span className="text-white/90">I build AI systems that deliver real-world impact.</span>
                         </p>
                     </div>
@@ -80,8 +80,8 @@ export default function Overlay({ containerRef }: OverlayProps) {
                 className="fixed top-1/2 right-8 w-full max-w-2xl -translate-y-1/2 text-right md:right-24"
             >
                 <h2 className="text-5xl font-bold leading-tight text-white md:text-7xl">
-                    &#34;I don&#39;t ship <br />
-                    <span className="text-indigo-400">demos.&#34;</span>
+                    {"\"I don't ship"} <br />
+                    <span className="text-indigo-400">{"demos.\""}</span>
                 </h2>
                 <p className="mt-6 ml-auto max-w-lg text-lg text-gray-300 md:text-xl">
                     I ship production systems that move real metrics.
