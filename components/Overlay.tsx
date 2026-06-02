@@ -38,19 +38,19 @@ export default function Overlay({ containerRef }: OverlayProps) {
                 className="fixed top-1/2 left-0 w-full -translate-y-1/2 text-center"
             >
                 <span className="inline-block rounded-full bg-white/10 px-4 py-1.5 text-sm uppercase tracking-wider text-white/80 backdrop-blur-md">
-                    Available for Hire
+                    Open to Global Opportunities
                 </span>
                 <h1 className="mt-6 text-6xl font-bold tracking-tight text-white md:text-8xl lg:text-9xl [text-shadow:0_4px_24px_rgba(0,0,0,0.5)]">
                     Md Saqib Shakil
                 </h1>
                 <p className="mt-4 text-xl font-light text-slate-300 md:text-2xl [text-shadow:0_2px_12px_rgba(0,0,0,0.8)]">
-                    AI Consultant · Engineer · Content Strategist
+                    Full Stack Developer · AI Engineer · Digital Creator
                 </p>
                 <div className="mt-10 flex justify-center">
                     <div className="px-6 py-3 rounded-2xl bg-black/20 backdrop-blur-md border border-white/10 shadow-2xl">
                         <p className="text-sm md:text-base font-medium tracking-wide text-fuchsia-400">
-                            {"Not just another \"AI guy.\""}<br />
-                            <span className="text-white/90">I build AI systems that deliver real-world impact.</span>
+                            I build production systems, AI automations, and digital experiences.<br />
+                            <span className="text-white/90">From travel platforms to WhatsApp bots to brand campaigns — all shipped, all real.</span>
                         </p>
                     </div>
                 </div>

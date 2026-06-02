@@ -5,8 +5,16 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Md Saqib Shakil | AI Consultant & Engineer",
-  description: "Cinematic portfolio of Md Saqib Shakil - AI Consultant, Engineer, and Content Strategist.",
+  title: "Md Saqib Shakil | Full Stack Developer · AI Engineer · Digital Creator",
+  description:
+    "Portfolio of Md Saqib Shakil — Full Stack Developer and AI Engineer from " +
+    "Kolkata, India. 2+ years building production platforms, AI integrations, " +
+    "WhatsApp automation bots, and digital marketing campaigns for real businesses.",
+  keywords: [
+    "Saqib Shakil", "Full Stack Developer", "AI Engineer", "Angular Developer",
+    "Node.js", "LLM Integration", "n8n Automation", "WhatsApp Business API",
+    "Social Media Marketing", "Kolkata Developer", "Freelance Developer India",
+  ],
 };
 
 export default function RootLayout({

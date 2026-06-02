@@ -5,27 +5,32 @@ import { motion } from "framer-motion";
 const skills = [
     {
         category: "Frontend",
-        items: ["Angular", "TypeScript", "Tailwind", "SCSS"],
+        items: ["Angular (v18+)", "TypeScript", "HTML5", "CSS3", "SCSS", "Tailwind CSS"],
         color: "from-blue-500 to-cyan-400"
     },
     {
         category: "Backend",
-        items: ["NestJS", "Node", "REST APIs", "RBAC", "JWT"],
+        items: ["Node.js", "Express.js", "REST APIs", "JWT Auth", "RBAC", "MySQL", "SQL Server"],
         color: "from-green-500 to-emerald-400"
     },
     {
-        category: "AI",
-        items: ["LLMs", "RAG", "Chatbots", "Prompt Engineering"],
+        category: "AI & Automation",
+        items: ["Claude API", "OpenAI API", "n8n Workflows", "Prompt Engineering", "WhatsApp Business API", "Chatbot Design", "LLM Integration"],
         color: "from-purple-500 to-pink-400"
     },
     {
-        category: "Cloud",
-        items: ["AWS", "VPS", "Railway", "Nginx"],
+        category: "DevOps & Cloud",
+        items: ["Railway CI/CD", "Git / GitHub", "Vercel", "Hostinger", "Docker (learning)", "AWS CLF-C02 (in progress)"],
         color: "from-orange-500 to-red-400"
     },
     {
-        category: "Other",
-        items: ["System Design", "CI/CD", "Payments", "Automation"],
+        category: "Creative Tools",
+        items: ["Canva", "CapCut", "VN (Video Ninja)", "Unity3D", "Figma"],
+        color: "from-fuchsia-500 to-rose-400"
+    },
+    {
+        category: "HR & Operations",
+        items: ["Talent Acquisition", "Team Management", "Onboarding", "SOP Documentation", "CRM Operations", "B2B Negotiation", "Vendor Management"],
         color: "from-indigo-500 to-violet-400"
     }
 ];

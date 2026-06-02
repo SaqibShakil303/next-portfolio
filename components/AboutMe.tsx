@@ -17,13 +17,13 @@ export default function AboutMe() {
 
                     <div className="space-y-8 text-xl leading-relaxed text-gray-300 md:text-2xl font-light">
                         <p>
-                            I’m <span className="text-white font-medium">Md Saqib Shakil</span> — an AI Consultant & Full-Stack Engineer.
+                            I&apos;m <span className="text-white font-medium">Saqib</span> — a Full Stack Developer and AI Engineer with 2+ years of production experience across travel-tech, EdTech, and retail sectors.
                         </p>
                         <div className="p-8 md:p-10 rounded-[2.5rem] bg-white/[0.03] backdrop-blur-2xl border border-white/10 shadow-[0_8px_32px_0_rgba(0,0,0,0.37)] relative overflow-hidden group">
                             <span className="relative z-10 block">
-                                {"Not just another \"AI guy.\""}
-                                <br className="hidden md:block" />
-                                I build AI systems that <span className="text-white border-b-2 border-indigo-500/50">deliver real-world impact</span>.
+                                I&apos;ve built platforms handling{" "}
+                                <span className="text-white border-b-2 border-indigo-500/50">1,000+ monthly users</span>
+                                {" "}and ₹15L+/month in real transactions, deployed WhatsApp automation bots, and integrated LLM APIs that replaced hours of manual work with 2-minute AI outputs.
                             </span>
                             {/* Accent Glow */}
                             <div className="absolute -top-24 -right-24 w-48 h-48 bg-indigo-500/10 blur-[60px] rounded-full group-hover:bg-indigo-500/20 transition-colors duration-500" />
@@ -32,12 +32,10 @@ export default function AboutMe() {
                         <hr className="border-white/10 my-8" />
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
                             <div>
-                                <h3 className="text-white font-bold mb-4">Engineering & Strategy.</h3>
-                                <p className="text-lg text-gray-400">From viral content systems to full-stack AI SaaS.</p>
+                                <p className="text-lg text-gray-400">Beyond code, I manage social media campaigns and influencer strategies, have handled daily recruitment in collaboration with a startup founder, and have led international group tours across the UAE and Philippines.</p>
                             </div>
                             <div className="text-right md:text-left">
-                                <h3 className="text-white font-bold mb-4">I don’t ship demos.</h3>
-                                <p className="text-lg text-gray-400">I ship production systems that move real metrics.</p>
+                                <p className="text-lg text-gray-400">I bring technical depth, creative output, and operational awareness — rare in a single person. Based in Kolkata. Open to global remote roles.</p>
                             </div>
                         </div>
                     </div>

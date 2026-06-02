@@ -4,32 +4,44 @@ import { motion } from "framer-motion";
 
 const projects = [
     {
-        title: "AI CRM + POS (Flagship)",
-        description: "End-to-end AI CRM with chatbot automation, billing, analytics.",
-        tech: ["Angular SSR", "NestJS", "AWS", "MySQL"],
-        features: ["WhatsApp automation", "OAuth login", "Invoice system", "Lead scoring"],
+        title: "AI CRM + WhatsApp Automation",
+        description: "Full-stack CRM serving 15 users managing 550+ records with 5-tier RBAC. WhatsApp lead qualification bot (n8n) with conversational intake and human-agent fallback. AI itinerary generator using LLM API reduces turnaround from hours to under 2 minutes. Full SOP documentation system.",
+        tech: ["Angular", "Node.js", "MySQL", "n8n", "WhatsApp API", "Claude API", "RBAC"],
+        features: [],
         gradient: "from-blue-600 to-cyan-500",
+        linkLabel: "View Case Study →",
     },
     {
-        title: "Sunflower Trip Platform",
-        description: "Travel booking system with payments.",
-        tech: ["Angular", "Node", "Razorpay"],
+        title: "Travel Booking Platform — thesunflowertrip.com",
+        description: "Production travel booking system: 102 REST API endpoints, 1,000+ MAU, ₹15L+/month in real transactions, 42-table MySQL schema. 80% API latency reduction (724ms → 146ms). Idempotent Razorpay payment flow with duplicate-charge prevention via DB-level unique constraints.",
+        tech: ["Angular", "Node.js", "MySQL", "Razorpay", "Railway CI/CD"],
         features: [],
         gradient: "from-purple-600 to-pink-500",
+        linkLabel: "View Case Study →",
     },
     {
-        title: "SunTrip ERP",
-        description: "Internal ERP system (HRM, CRM, automation)",
-        tech: ["Internal Tool"],
+        title: "POS & Merchandise Platform — myownprint.com.au",
+        description: "Led a 3-person remote team across an 8-month Melbourne engagement. Order lifecycle modelled as a DB-persisted state machine (Pending → Processing → Printed → Shipped → Delivered). Each transition is a logged DB write — fully auditable. 25% frontend load-time improvement.",
+        tech: ["Angular", ".NET", "SQL Server", "Remote Team Lead", "Australia"],
         features: [],
         gradient: "from-orange-500 to-red-500",
+        linkLabel: "View Case Study →",
+    },
+    {
+        title: "Social Media & Brand Identity — Souvlakia India",
+        description: "Managed the complete social media presence for a New Town restaurant. Developed multi-platform growth strategy, designed the menu and all marketing collateral in Canva, produced video content with CapCut/VN, and ran audience growth campaigns from zero.",
+        tech: ["Canva", "CapCut", "VN", "Instagram", "Content Strategy", "Menu Design"],
+        features: [],
+        gradient: "from-fuchsia-600 to-rose-500",
+        linkLabel: "View Work →",
     },
     {
         title: "Unity Horror Game",
-        description: "Story-based demo game with immersive atmosphere.",
-        tech: ["Unity", "C#"],
+        description: "Story-based horror demo game with immersive atmospheric environments. 3D scene design, interactive narrative mechanics, and game logic built entirely in Unity3D — demonstrating creative technical depth beyond web development.",
+        tech: ["Unity", "C#", "3D", "Game Design", "Horror"],
         features: [],
         gradient: "from-green-500 to-emerald-600",
+        linkLabel: "View Demo →",
     },
 ];
 
@@ -80,8 +92,7 @@ export default function Projects() {
                             )}
 
                             <button className="flex items-center gap-2 text-sm font-semibold text-white transition-colors hover:text-indigo-400">
-                                View Case Study
-                                <span className="transition-transform group-hover:translate-x-1">→</span>
+                                {project.linkLabel}
                             </button>
                         </motion.div>
                     ))}

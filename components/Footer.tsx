@@ -8,7 +8,7 @@ export default function Footer() {
             <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-6 md:flex-row">
                 <div>
                     <h3 className="text-lg font-bold text-white">Md Saqib Shakil</h3>
-                    <p className="text-sm text-gray-500">Building real AI systems.</p>
+                    <p className="text-sm text-gray-500">Building real systems. Shipping real results.</p>
                 </div>
 
                 <div className="flex gap-6">

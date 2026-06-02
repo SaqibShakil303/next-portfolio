@@ -4,8 +4,8 @@ export default function Contact() {
     return (
         <section className="relative z-10 w-full bg-[#121212] py-32 px-4 md:px-12 text-center">
             <div className="mx-auto max-w-3xl">
-                <h2 className="text-5xl font-bold text-white md:text-7xl">Let’s build something powerful.</h2>
-                <p className="mt-8 text-xl text-gray-400">If you’re serious about building real products — let’s talk.</p>
+                <h2 className="text-5xl font-bold text-white md:text-7xl">Let&apos;s build something that works.</h2>
+                <p className="mt-8 text-xl text-gray-400">Open to full stack development, AI integration, social media management, and hybrid roles globally. Remote-first. Immediate availability.</p>
 
                 <form className="mt-12 flex flex-col gap-6 text-left">
                     <div className="grid grid-cols-1 gap-6 md:grid-cols-2">

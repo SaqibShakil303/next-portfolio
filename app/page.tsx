@@ -12,6 +12,7 @@ import TechStack from "@/components/TechStack";
 import Process from "@/components/Process";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import StatsSection from "@/components/StatsSection";
 
 export default function Home() {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -31,6 +32,7 @@ export default function Home() {
           <Projects />
           <WhatIDo />
           <Experience />
+          <StatsSection />
           <AboutMe />
           <TechStack />
           <Process />

@@ -5,41 +5,44 @@ import { motion } from "framer-motion";
 export default function Experience() {
     const experiences = [
         {
-            role: "Digital & Software Lead",
-            company: "Sunflower Trip Pvt Ltd",
-            period: "2025 NOV — Present",
+            role: "Digital & Product Lead",
+            company: "Sunflower Trip Pvt. Ltd.",
+            period: "NOV 2025 — Present",
             achievements: [
-                "Architected AI CRM system",
-                "Led junior developers",
-                "Designed scalable APIs",
-                "Deployed cloud infrastructure",
-                "Integrated payments",
-                "Built automation pipelines",
-                "Improved system performance"
+                "Recruited multiple candidates as a daily responsibility in direct collaboration with the founder — full-cycle hiring from requirement definition and sourcing through to interviews, selection, and onboarding",
+                "Managed and directed a cross-functional team of a graphic designer and a web developer — task assignment, deliverable review, deadline tracking, and performance feedback",
+                "Managed @tripsunflower (Instagram) end-to-end — content calendar, influencer outreach and collaboration campaigns, growth strategies, and performance analytics",
+                "Built and deployed a WhatsApp Business API lead qualification bot (n8n) with conversational intake logic and human-agent fallback — reduced turnaround from hours to under 2 minutes",
+                "Integrated AI-powered itinerary generator using LLM API (Claude/Anthropic) with prompt-engineered JSON output synced directly to CRM lead records",
+                "Primary technical contact for 15 daily users on live CRM — investigated and closed 15+ production incidents/month via structured log review and SQL root-cause analysis",
+                "Led international group tours for senior traveller groups across Abu Dhabi, Dubai, and the Philippines — complete on-ground logistics, vendor coordination, and real-time issue resolution",
+                "Negotiated with B2B vendors including hotels, DMC partners, and transport providers to secure optimal pricing while maintaining service quality",
             ]
         },
-         {
+        {
             role: "Full Stack Developer",
-            company: "Sunflower Trip Pvt Ltd",
-            period: "2025 APR — 2025 NOV",
+            company: "Sunflower Trip Pvt. Ltd.",
+            period: "APR 2025 — NOV 2025",
             achievements: [
-                "Built and scaled a travel booking platform with 1000+ monthly users",
-                "Boosted engagement by 35% with advanced search & filters",
-                "Integrated Razorpay, processing ₹10L+ monthly transactions",
-                "Reduced production bugs by 30% through performance optimization",
-                "Maintained 99.9% uptime on Hostinger & Railway deployments",
+                "Built thesunflowertrip.com — live booking platform with 102 REST API endpoints, 1,000+ MAU, ₹15L+/month in real payment transactions, and a 42-table MySQL schema",
+                "Resolved a critical API latency issue: 724ms → 146ms (80% improvement) through systematic log analysis, query restructuring, and index optimisation",
+                "Reduced production bug rate 30% (20 → 14/month) via structured pre-release QA checklists and formalised validation handoff procedures",
+                "Built 5-tier RBAC system with DB-driven permission model — roles are table rows, configurable at runtime without any redeployment",
+                "Configured Railway CI/CD pipeline for automated deployment, enabling same-day hotfix delivery for production incidents",
+                "Implemented idempotent Razorpay payment flow with DB-level unique constraints preventing duplicate charges on webhook retry events",
             ]
-        }, {
-            role: "Full Stack Developer",
-            company: "Freelancer at Australia",
-            period: "2024 APR — 2025 MAR",
+        },
+        {
+            role: "Freelance Full Stack Developer & Creative",
+            company: "Remote — Australia, UK & India",
+            period: "APR 2024 — MAR 2025",
             achievements: [
-                "Developed POS system used by 5+ retail outlets",
-                "delivered Projects 2 weeks ahead of schedule",
-                "Improved UI performance by 25% (Angular optimization)",
-                "Managed production database on Azure SQL Server",
-                "Integrated payments and Billing",
-                "Improved for handling 500+ daily transactions"
+                "Built myownprint.com.au (Melbourne) — POS/merchandise platform with order lifecycle as a DB-persisted state machine; led a 3-person remote team across an 8-month engagement from MVP to production",
+                "Delivered a full-stack EdTech counselling platform solo for a UK education consultancy under a hard client deadline — owned all product, delivery, and deployment decisions independently",
+                "Managed the complete social media presence for Souvlakia India (New Town, Kolkata) — multi-platform growth strategy, content creation, and audience engagement from the ground up",
+                "Designed the restaurant menu from scratch in Canva and produced all marketing collateral; created advertising posters for myownprint.com.au from client briefs",
+                "Produced video content and promotional reels using CapCut and VN; created 3D scenes and environments in Unity3D for creative content projects",
+                "Maintained professional async communication with Australian and UK clients across time zones — requirements, change requests, progress updates, and delivery",
             ]
         }
     ];

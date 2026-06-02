@@ -2,50 +2,56 @@
 
 import { motion } from "framer-motion";
 import {
-    Cpu,
+    Code,
     BrainCircuit,
+    Zap,
     Database,
     TrendingUp,
-    Server,
-    Cloud,
-    Code
+    Palette,
+    Users,
+    Cpu
 } from "lucide-react";
 
 const services = [
     {
-        title: "AI SaaS Development",
-        icon: <Cpu className="h-8 w-8" />,
-        description: "Building scalable AI-powered applications from scratch."
+        title: "Full Stack Development",
+        icon: <Code className="h-8 w-8" />,
+        description: "Angular + Node.js production systems with MySQL, RBAC, and REST APIs — architected, built, deployed, and maintained end-to-end."
     },
     {
-        title: "Custom LLM Systems",
+        title: "AI & LLM Integration",
         icon: <BrainCircuit className="h-8 w-8" />,
-        description: "Fine-tuning and deploying specialized language models."
+        description: "WhatsApp automation bots, AI itinerary generators, and Claude/OpenAI API integrations wired directly into real business workflows."
+    },
+    {
+        title: "Workflow Automation",
+        icon: <Zap className="h-8 w-8" />,
+        description: "n8n pipelines, webhook-driven orchestration, and process automation that eliminate manual work and scale operations without extra headcount."
     },
     {
         title: "CRM / ERP Platforms",
         icon: <Database className="h-8 w-8" />,
-        description: "Unified systems for business intelligence and operations."
+        description: "Role-based internal systems with dashboards, audit trails, and SOP-aligned workflows built for growing startup teams."
     },
     {
-        title: "Growth Automation",
+        title: "Social Media Management",
         icon: <TrendingUp className="h-8 w-8" />,
-        description: "Automating workflows to drive business growth."
+        description: "Instagram growth strategy, content calendars, influencer collaboration campaigns, and data-driven performance optimisation."
     },
     {
-        title: "Backend Architecture",
-        icon: <Server className="h-8 w-8" />,
-        description: "Robust and scalable server-side solutions."
+        title: "Content Creation & Design",
+        icon: <Palette className="h-8 w-8" />,
+        description: "Canva graphics, CapCut/VN video editing, brand collateral, menus, and promotional assets — from brief to final deliverable."
     },
     {
-        title: "Cloud Deployment",
-        icon: <Cloud className="h-8 w-8" />,
-        description: "Secure and efficient cloud infrastructure setup."
+        title: "HR & Recruitment",
+        icon: <Users className="h-8 w-8" />,
+        description: "Full-cycle hiring, team coordination, onboarding workflows, and SOP documentation for fast-moving startup environments."
     },
     {
         title: "Technical Consulting",
-        icon: <Code className="h-8 w-8" />,
-        description: "Strategic advice for complex engineering challenges."
+        icon: <Cpu className="h-8 w-8" />,
+        description: "Strategic advice on system architecture, AI integration roadmaps, and digital operations — bridging engineering decisions with business goals."
     },
 ];
 
