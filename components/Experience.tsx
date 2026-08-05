@@ -5,9 +5,20 @@ import { motion } from "framer-motion";
 export default function Experience() {
     const experiences = [
         {
+            role: "Travel Automation & Operations Executive",
+            company: "Sanchara World Pvt. Ltd. (JK Spices Group)",
+            period: "JUN 2026 — Present",
+            achievements: [
+                "Coordinate operational workflows across B2B travel platforms including Expedia TAAP, Hotelbeds, Riya Connect and Cleartrip — managing bookings, confirmations, availability and pricing.",
+                "Developing the company's internal CRM using Angular, NestJS and MariaDB, covering lead management, role-based access and document automation (quotations, itineraries, vouchers).",
+                "Maintain supplier databases, rate-comparison trackers and operational checklists; prepare SOPs and documentation for team workflows.",
+                "Investigate booking, API and workflow discrepancies; coordinate resolution with suppliers and internal stakeholders.",
+            ]
+        },
+        {
             role: "Digital & Product Lead",
             company: "Sunflower Trip Pvt. Ltd.",
-            period: "NOV 2025 — Present",
+            period: "NOV 2025 — JUN 2026",
             achievements: [
                 "Recruited multiple candidates as a daily responsibility in direct collaboration with the founder — full-cycle hiring from requirement definition and sourcing through to interviews, selection, and onboarding",
                 "Managed and directed a cross-functional team of a graphic designer and a web developer — task assignment, deliverable review, deadline tracking, and performance feedback",

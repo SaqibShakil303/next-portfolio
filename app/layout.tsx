@@ -7,13 +7,16 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Md Saqib Shakil | Full Stack Developer · AI Engineer · Digital Creator",
   description:
-    "Portfolio of Md Saqib Shakil — Full Stack Developer and AI Engineer from " +
-    "Kolkata, India. 2+ years building production platforms, AI integrations, " +
-    "WhatsApp automation bots, and digital marketing campaigns for real businesses.",
+    "Portfolio of MD Saqib Shakil — Operations and Systems Professional with 2+ years in CRM operations, " +
+    "supplier coordination, booking workflows and business process automation. Based in Kolkata, India.",
   keywords: [
     "Saqib Shakil", "Full Stack Developer", "AI Engineer", "Angular Developer",
     "Node.js", "LLM Integration", "n8n Automation", "WhatsApp Business API",
     "Social Media Marketing", "Kolkata Developer", "Freelance Developer India",
+    "Operations Coordinator", "Supply Chain Operations", "CRM Operations",
+    "Supplier Coordination", "Booking Operations", "Workflow Automation",
+    "Business Process Management", "Travel Operations", "Sanchara World",
+    "Sunflower Trip",
   ],
 };
 

@@ -44,12 +44,12 @@ export default function Overlay({ containerRef }: OverlayProps) {
                     Md Saqib Shakil
                 </h1>
                 <p className="mt-4 text-xl font-light text-slate-300 md:text-2xl [text-shadow:0_2px_12px_rgba(0,0,0,0.8)]">
-                    Full Stack Developer · AI Engineer · Digital Creator
+                    Operations &amp; Systems Professional | CRM Automation | Workflow Design | Business Operations
                 </p>
                 <div className="mt-10 flex justify-center">
                     <div className="px-6 py-3 rounded-2xl bg-black/20 backdrop-blur-md border border-white/10 shadow-2xl">
                         <p className="text-sm md:text-base font-medium tracking-wide text-fuchsia-400">
-                            I build production systems, AI automations, and digital experiences.<br />
+                            I design and operate end-to-end business workflows — from CRM systems and supplier coordination to booking operations and process automation.<br />
                             <span className="text-white/90">From travel platforms to WhatsApp bots to brand campaigns — all shipped, all real.</span>
                         </p>
                     </div>

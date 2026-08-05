@@ -6,6 +6,7 @@ import {
     BrainCircuit,
     Zap,
     Database,
+    ClipboardList,
     TrendingUp,
     Palette,
     Users,
@@ -31,7 +32,12 @@ const services = [
     {
         title: "CRM / ERP Platforms",
         icon: <Database className="h-8 w-8" />,
-        description: "Role-based internal systems with dashboards, audit trails, and SOP-aligned workflows built for growing startup teams."
+        description: "Role-based internal systems with supplier databases, operational trackers, audit trails and SOP-aligned workflows — built and operated for real business processes."
+    },
+    {
+        title: "Operations & Process Coordination",
+        icon: <ClipboardList className="h-8 w-8" />,
+        description: "Supplier coordination, booking lifecycle management, vendor communication, SOP development and operational reporting across CRM and B2B platforms — bridging business operations with structured, traceable workflows."
     },
     {
         title: "Social Media Management",

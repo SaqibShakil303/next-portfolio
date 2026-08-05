@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const projects = [
     {
         title: "AI CRM + WhatsApp Automation",
-        description: "Full-stack CRM serving 15 users managing 550+ records with 5-tier RBAC. WhatsApp lead qualification bot (n8n) with conversational intake and human-agent fallback. AI itinerary generator using LLM API reduces turnaround from hours to under 2 minutes. Full SOP documentation system.",
+        description: "Internal operations CRM built for a travel-tech startup — managing 550+ customer and booking records with role-based access across 5 team levels. Automated lead qualification, supplier follow-ups, quotation generation, itinerary creation and voucher issuance. Reduced manual entry and improved operational consistency across the team.",
         tech: ["Angular", "Node.js", "MySQL", "n8n", "WhatsApp API", "Claude API", "RBAC"],
         features: [],
         gradient: "from-blue-600 to-cyan-500",
